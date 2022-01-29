@@ -1,0 +1,46 @@
+body{
+    background-image: url("cocktails.jpg"), linear-gradient(black, white);
+    font-family: monospace;
+    font-size: 20px;
+    background-size: 100%;
+    color: snow;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+.Navbar{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    font-family: Lobster, monospace;
+    color: rgb(177, 174, 170);
+    font-size: 30px;
+}
+
+li{
+    float: left;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
+}
+
+h1{
+    color: rgb(177, 174, 170);
+    font-family: Lobster;
+    text-align: center;
+    font-size: 50px;
+}
