@@ -17,6 +17,7 @@ body{
 
 .Navbar{
     background-color: black;
+    position: fixed;
 }
 
 ul{
@@ -46,10 +47,16 @@ h1{
 }
 
 img{
-    max-width: 25%;
-    max-height: 25%;
-    border-radius: 100%;
-    border-style: solid;
+    width: 400px;
+    border-radius: 20px;
+    border-style: groove;
     border-width: 5px;
-    border-color: purple;
+    border-color: rgb(177, 174, 170);
 }
+
+#Drinks{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
